@@ -2,19 +2,19 @@
 
 function reverseWords(str) {
   // Go for it
-  let backwordsString = ""
-  for(let i = str.length - 1; i >= 0; i--){
-  backwordsString = backwordsString += str[i]
-  console.log(backwordsString)
+  let backwordsString = "";
+  for (let i = str.length - 1; i >= 0; i--){
+  backwordsString += str[i];
   }
+  return backwordsString.split(" ").reverse().join(" ");
 }
 
 reverseWords('double  spaced  words')
 
-// function reverseWords(str) {
-//   var newStr = "";
-//   for (var i = str.length - 1; i >= 0; i--) {
-//     newStr += str[i];
-//   }
-//   return newStr.split(" ").reverse().join(" ");
-// }
+function reverseWords(str) {
+  var newStr = "";
+  for (var i = str.length - 1; i >= 0; i--) {
+    newStr += str[i];
+  }
+  return newStr.split(" ").reverse().join(" ");
+}
