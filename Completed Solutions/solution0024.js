@@ -5,3 +5,5 @@ function sum(arr) {
     }    
     return sum;
   }
+  
+  //testing
